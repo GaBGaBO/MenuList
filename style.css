@@ -1,0 +1,327 @@
+body{
+    background-color:lightgrey;
+    display:flex;
+    height:100vh;
+    overflow:hidden;
+    padding:0;
+    text-align:center;
+    justify-content:center;
+}
+
+.box{
+    position:relative;
+    margin-top:100px;
+    margin-right:800px;
+    background-color:white;
+    font-weight:bold;
+    width:360px;
+    height:528px;
+    border-radius:20px;
+}
+.box .img img{
+    cursor:pointer;
+    width:360px;
+    height:218px;
+    border-radius:10px;
+}
+.box h2{
+    position:absolute;
+    left:27px;
+    color:black;
+}
+.box .icon i{
+    cursor:pointer;
+    position:absolute;
+    right:50px;
+    top:247px;
+    color:red;
+    width:50px;
+    font-size:25px;
+}
+.box .icon1{
+    position:relative;
+}
+.box .icon1 i{
+    cursor:pointer;
+    position:absolute;
+    top:25px;
+    right:20px;
+    font-size:25px;
+    color:red;
+}
+.box .maintext{
+    position:relative;
+}
+.box .maintext p{
+    position:absolute;
+    top:70px;
+    color:red;
+    font-weight:500;
+    font-size:18px;
+}
+.box .cal{
+    position:absolute;
+    top: 366px;
+    left:20px;
+    color:#909090;
+}
+.box .date{
+    position:absolute;
+    top: 366px;
+    left:120px;
+    color:#909090;
+}
+.box .grade{
+    position:absolute;
+    top:366px;
+    right:40px;
+    color:#909090;
+}
+.box .price{
+    position:relative;
+}
+.box .price .price1{
+    color:black;
+    position:absolute;
+    top:200px;
+    font-size:30px;
+    left:28px;
+    font-weight:bold;
+}
+.box .price .price2{
+    color:black;
+    position:absolute;
+    top:215px;
+    font-size:20px;
+    left:130px;
+    font-weight:bold;
+    color:red;
+
+}
+.box .btn{
+    position:absolute;
+    top:446px;
+    right:50px;
+    background-color:green;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    letter-spacing:1.2px;
+    height:40px;
+    cursor:pointer;
+}
+
+/* box 2 */
+
+.newbox{
+    position:absolute;
+    right:519px;
+    top:107px;
+    width:360px;
+    height:528px;
+    font-weight:bold;
+    background-color:white;
+    border-radius:20px;
+}
+.newbox .img img{
+    cursor:pointer;
+    width:360px;
+    height:218px;
+    border-radius:10px;
+}
+.newbox h2{
+    position:absolute;
+    left:27px;
+    color:black;
+}
+.newbox .icon i{
+    cursor:pointer;
+    position:absolute;
+    right:50px;
+    top:247px;
+    color:gold;
+    font-weight:bold;
+    width:50px;
+    font-size:25px;
+}
+.newbox .icon1{
+    position:relative;
+}
+.newbox .icon1 i{
+    cursor:pointer;
+    position:absolute;
+    top:25px;
+    right:20px;
+    font-size:25px;
+    color:red;
+}
+
+.newbox .maintext{
+    position:relative;
+}
+.newbox .maintext p{
+    position:absolute;
+    top:70px;
+    color:#FF652F;
+    font-weight:500;
+    font-size:18px;
+}
+.newbox .cal{
+    position:absolute;
+    top: 377px;
+    left:20px;
+    color:#909090;
+}
+.newbox .date{
+    position:absolute;
+    top: 377px;
+    left:120px;
+    color:#909090;
+}
+.newbox .grade{
+    position:absolute;
+    top: 377px;
+    right:40px;
+    color:#909090;
+}
+
+.newbox .price{
+    position:relative;
+}
+.newbox .price .price1{
+    color:black;
+    position:absolute;
+    top:200px;
+    font-size:30px;
+    left:28px;
+    font-weight:bold;
+}
+.newbox .price .price2{
+    color:black;
+    position:absolute;
+    top:215px;
+    font-size:20px;
+    left:130px;
+    font-weight:bold;
+    color:red;
+
+}
+.newbox .btn{
+    position:absolute;
+    top:446px;
+    right:50px;
+    background-color:green;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    letter-spacing:1.2px;
+    height:40px;
+    cursor:pointer;
+}
+/* newest */
+.newestbox{
+    position:absolute;
+    right:50px;
+    top:107px;
+    width:360px;
+    height:528px;
+    font-weight:bold;
+    background-color:white;
+    border-radius:20px;
+}
+.newestbox .img img{
+    cursor:pointer;
+    width:360px;
+    height:218px;
+    border-radius:10px;
+}
+.newestbox h2{
+    position:absolute;
+    left:27px;
+    color:black;
+}
+.newestbox .icon i{
+    cursor:pointer;
+    position:absolute;
+    right:50px;
+    top:247px;
+    color:black;
+    width:50px;
+    font-size:25px;
+}
+.newestbox .icon1{
+    position:relative;
+}
+.newestbox .icon1 i{
+    cursor:pointer;
+    position:absolute;
+    top:25px;
+    right:20px;
+    font-size:25px;
+    color:red;
+}
+
+.newestbox .maintext{
+    position:relative;
+}
+.newestbox .maintext p{
+    position:absolute;
+    top:70px;
+    color:#FF652F;
+    font-weight:500;
+    font-size:18px;
+}
+.newestbox .cal{
+    position:absolute;
+    top: 377px;
+    left:20px;
+    color:#909090;
+}
+.newestbox .date{
+    position:absolute;
+    top: 377px;
+    left:120px;
+    color:#909090;
+}
+.newestbox .grade{
+    position:absolute;
+    top: 377px;
+    right:40px;
+    color:#909090;
+}
+
+.newestbox .price{
+    position:relative;
+}
+.newestbox .price .price1{
+    color:black;
+    position:absolute;
+    top:200px;
+    font-size:30px;
+    left:28px;
+    font-weight:bold;
+}
+.newestbox .price .price2{
+    color:black;
+    position:absolute;
+    top:215px;
+    font-size:20px;
+    left:130px;
+    font-weight:bold;
+    color:red;
+
+}
+.newestbox .btn{
+    position:absolute;
+    top:446px;
+    right:50px;
+    background-color:green;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    letter-spacing:1.2px;
+    height:40px;
+    cursor:pointer;
+}
+
+
